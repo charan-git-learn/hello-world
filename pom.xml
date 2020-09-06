@@ -3,7 +3,7 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example.maven-project</groupId>
+  <groupId>maven_deploy example</groupId>
   <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
@@ -29,7 +29,7 @@
     </site>
 	<snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://35.239.160.178:8081/repository/maven-snapshots/</url>
+      <url>http://35.224.35.146:8081/repository/maven-deploy/</url>
     </snapshotRepository>
   </distributionManagement>
 
